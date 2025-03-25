@@ -1,4 +1,5 @@
 # vroot-linux
+
 Docker template files for IMUNES virtual nodes when running on Linux.
 
 This repository provides different base images for IMUNES virtual nodes. Each
@@ -13,17 +14,16 @@ different variations:
    faster and have a smaller footprint.
 
 ## Versions
-Currently supported versions are as follows:
+
+Currently supported versions is the following.
 
 | Folder            | Distribution and version | Image name                       | Comment                              |
 | ----------------- | ------------------------ | -------------------------------- | ------------------------------------ |
-| latest (debian-8) | Debian 8 (jessie)        | imunes/template:latest           | old packages, but tested and working |
-| debian-9          | Debian 9 (stretch)       | imunes/template:debian-9         | newer packages, needs testing        |
-| debian-9-min      | Debian 9 minimal         | imunes/template:debian-9-min     | minimal edition                      |
-| ubuntu-18.04      | Ubuntu 18.04 LTS         | imunes/template:ubuntu-18.04     | ubuntu release, needs testing        |
-| ubuntu-18.04-min  | Ubuntu 18.04 LTS minimal | imunes/template:ubuntu-18.04-min | minimal edition                      |
+| ubuntu-16.04      | Ubuntu 16.04 LTS         | imunes/template:ubuntu-16.04     | ubuntu release, needs testing        |
+| ubuntu-16.04-min  | Ubuntu 16.04 LTS minimal | imunes/template:ubuntu-16.04-min | minimal edition                      |
 
 ## Credits
+
 This image is based on [Phusion](http://www.phusion.nl/) baseimage-docker and
 slightly modified to run a different distro version along with some new
 packages.
